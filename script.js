@@ -14,4 +14,10 @@ bottone.addEventListener('click', function () {
     }
 });
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> c9a4ccc615538acac37112d03aeb5e24d5233769
 

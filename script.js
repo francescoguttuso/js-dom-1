@@ -1,7 +1,7 @@
 const immagine = document.querySelector('#imgAttiva');
 const bottone = document.querySelector('#btnAccendi');
 let accesa = false;
-bottone.addEventListener('click', function () {
+bottone.addEventListener('click', () => {
     if (!accesa) {
         immagine.src = 'img/yellow_lamp.png';
         bottone.textContent = 'Spegni';
@@ -14,9 +14,8 @@ bottone.addEventListener('click', function () {
     }
 });
 
-
-
 button.addEventListener('click', () => {
 image.src = 'img/yellow_lamp.png';
 image.alt = 'lampadina accesa';
 });
+
